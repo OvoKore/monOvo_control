@@ -8,7 +8,7 @@ all -1 2 0
 # Parasita invocada
 1555 -1 0 0
 # Flora invocada
-1575 -1 0 0 
+1575 -1 0 0
 # Hidra invocada
 1579 -1 0 0
 # Mandragora invocada
@@ -22,7 +22,6 @@ all -1 2 0
 6003 -1 0 0
 6004 -1 0 0
 6005 -1 0 0
-
 6006 -1 0 0
 6007 -1 0 0
 6008 -1 0 0
@@ -69,7 +68,7 @@ all -1 2 0
 
 ##### Monstros assistentes #####
 # Mímico (Monstro)
-#1191 -1 0 0
+1191 -1 0 0
 # Mascarado (Monstro)
 1506 -1 0 0
 # Alice (Monstro)
