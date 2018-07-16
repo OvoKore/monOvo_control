@@ -1,6 +1,12 @@
-all -1 2 0
+all -1 3600 0
 
-2776 -1 0 0 #Baby Poring Ringleader
+1004 1 0 0 #zangao
+1184 1 0 0 #fabre
+1049 1 0 0 #Picky
+1010 1 0 0 #Salgueiro
+1063 1 0 0 #lunatico
+1002 1 0 0 #poring
+1113 1 0 0 #drops
 
 ##### Invocados por alquimistas ####
 # Parasita invocada
