@@ -40,23 +40,20 @@ sub onMapChange {
 		if ($field->name eq $config{lockMap}) {
 			if (-e "monOvo_control\\lock\\" . $config{lockMap} . "\\mon_control.txt") {
 				Settings::setMonControlFilename("monOvo_control\\lock\\" . $config{lockMap} . "\\mon_control.txt");
-				parseReload("mon_control.txt");
 			}
 			else {
 				Settings::setMonControlFilename('control\mon_control.txt');
-				parseReload("mon_control.txt");
 			}
 		}
 		else {
 			if (-e "monOvo_control\\way\\" . $field->name . "\\mon_control.txt") {
 				Settings::setMonControlFilename("monOvo_control\\way\\" . $field->name . "\\mon_control.txt");
-				parseReload("mon_control.txt");
 			}
 			else {
 				Settings::setMonControlFilename('control\mon_control.txt');
-				parseReload("mon_control.txt");
 			}
 		}
+		parseReload("mon_control.txt");
 	}
 }
 
@@ -64,21 +61,18 @@ sub onMapLoaded {
 	if ($field->name eq $config{lockMap}) {
 		if (-e "monOvo_control\\lock\\" . $config{lockMap} . "\\mon_control.txt") {
 			Settings::setMonControlFilename("monOvo_control\\lock\\" . $config{lockMap} . "\\mon_control.txt");
-			parseReload("mon_control.txt");
 		}
 		else {
 			Settings::setMonControlFilename('control\mon_control.txt');
-			parseReload("mon_control.txt");
 		}
 	}
 	else {
 		if (-e "monOvo_control\\way\\" . $field->name . "\\mon_control.txt") {
 			Settings::setMonControlFilename("monOvo_control\\way\\" . $field->name . "\\mon_control.txt");
-			parseReload("mon_control.txt");
 		}
 		else {
 			Settings::setMonControlFilename('control\mon_control.txt');
-			parseReload("mon_control.txt");
 		}
 	}
+	parseReload("mon_control.txt");
 }
